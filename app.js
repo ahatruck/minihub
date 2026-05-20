@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
 
-    const revealElements = document.querySelectorAll('.benefit-card, .step');
+    const revealElements = document.querySelectorAll('.benefit-card, .step, .steps-cta');
     revealElements.forEach(el => {
         el.classList.add('reveal');
         observer.observe(el);
